@@ -1,0 +1,8 @@
+{
+  "modelVersion": "5.0.0",
+  "description": "tvhub-harmony 鸿蒙聚合影视壳",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.19"
+  }
+}

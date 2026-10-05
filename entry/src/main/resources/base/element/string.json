@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "鸿蒙聚合影视壳（TVBox + 海阔视界）"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "聚合播放器"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "TVHub"
+    }
+  ]
+}

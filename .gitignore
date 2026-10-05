@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# DevEco / Hvigor build output
+.hvigor/
+build/
+entry/build/
+entry/.cxx/
+oh_modules/
+*.hap
+*.log
+
+# IDE-local state
+.idea/workspace.xml
+.idea/.deveco/
+
+# Test scripts and tools (不上传测试脚本和工具)
+extensions-src/
+
+# Video subscription sources (不上传视频订阅源)
+entry/src/main/resources/rawfile/uzcore/CatPaw_PanSou.js
+entry/src/main/resources/rawfile/uzcore/test-ext.js

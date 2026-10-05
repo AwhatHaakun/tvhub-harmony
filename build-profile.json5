@@ -1,0 +1,57 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/mac/.ohos/config/default_tvhub-harmony_S4Oh5M-6ryQwbSnQM-k9fEIZS-ezvQrIQSSb1a5JAz8=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B73FCEFF69D0E9903485A07ABCD6F6737082C142165B908F5256E2BF886354A2CE91543B4583988",
+          "profile": "/Users/mac/.ohos/config/default_tvhub-harmony_S4Oh5M-6ryQwbSnQM-k9fEIZS-ezvQrIQSSb1a5JAz8=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/mac/.ohos/config/default_tvhub-harmony_S4Oh5M-6ryQwbSnQM-k9fEIZS-ezvQrIQSSb1a5JAz8=.p12",
+          "storePassword": "0000001BA27F6CC9F2E6964A25DF43C20CFB45109F0086F84EDB0DB4E8478A82500BD864F20EDA8D23D213"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "6.0.1(21)",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "targetSdkVersion": "6.0.1(21)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
